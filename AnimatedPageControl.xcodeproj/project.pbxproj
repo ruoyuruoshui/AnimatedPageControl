@@ -16,6 +16,7 @@
 		40A678E31D2B8F04002568EC /* AnimatedPageControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A678E21D2B8F04002568EC /* AnimatedPageControlUITests.m */; };
 		40A678F31D2B8FA9002568EC /* LEGooeyCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A678F21D2B8FA9002568EC /* LEGooeyCircleViewController.m */; };
 		40A678F61D2B9023002568EC /* LEGooeyLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A678F51D2B9023002568EC /* LEGooeyLayer.m */; };
+		40A831711D2BA1340013B6DA /* LEGooerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A831701D2BA1340013B6DA /* LEGooerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		40A678F21D2B8FA9002568EC /* LEGooeyCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGooeyCircleViewController.m; sourceTree = "<group>"; };
 		40A678F41D2B9023002568EC /* LEGooeyLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGooeyLayer.h; sourceTree = "<group>"; };
 		40A678F51D2B9023002568EC /* LEGooeyLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGooeyLayer.m; sourceTree = "<group>"; };
+		40A8316F1D2BA1340013B6DA /* LEGooerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEGooerView.h; sourceTree = "<group>"; };
+		40A831701D2BA1340013B6DA /* LEGooerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEGooerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +152,8 @@
 				40A678F21D2B8FA9002568EC /* LEGooeyCircleViewController.m */,
 				40A678F41D2B9023002568EC /* LEGooeyLayer.h */,
 				40A678F51D2B9023002568EC /* LEGooeyLayer.m */,
+				40A8316F1D2BA1340013B6DA /* LEGooerView.h */,
+				40A831701D2BA1340013B6DA /* LEGooerView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				40A678F31D2B8FA9002568EC /* LEGooeyCircleViewController.m in Sources */,
 				40A678C21D2B8F04002568EC /* AppDelegate.m in Sources */,
 				40A678F61D2B9023002568EC /* LEGooeyLayer.m in Sources */,
+				40A831711D2BA1340013B6DA /* LEGooerView.m in Sources */,
 				40A678BF1D2B8F04002568EC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +522,7 @@
 				40A678E91D2B8F04002568EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40A678EA1D2B8F04002568EC /* Build configuration list for PBXNativeTarget "AnimatedPageControlTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +531,7 @@
 				40A678EC1D2B8F04002568EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40A678ED1D2B8F04002568EC /* Build configuration list for PBXNativeTarget "AnimatedPageControlUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +540,7 @@
 				40A678EF1D2B8F04002568EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
